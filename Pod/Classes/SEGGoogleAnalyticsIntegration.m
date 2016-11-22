@@ -1,9 +1,9 @@
-#import <GoogleAnalytics/GAIDictionaryBuilder.h>
-#import <GoogleAnalytics/GAIFields.h>
-#import <Analytics/SEGAnalyticsUtils.h>
-#import <Analytics/SEGAnalytics.h>
+#import <GAIDictionaryBuilder.h>
+#import <GAIFields.h>
+#import <SEGAnalyticsUtils.h>
+#import <SEGAnalytics.h>
 #import "SEGGoogleAnalyticsIntegration.h"
-#import <GoogleAnalytics/GAI.h>
+#import <GAI.h>
 
 
 @interface SEGGoogleAnalyticsIntegration ()
@@ -91,7 +91,7 @@
         [self orderCompleted:payload.properties];
         return;
     }
-    
+
     // Try to extract a "category" property.
     NSString *category = @"All"; // default
     NSString *categoryProperty = [payload.properties objectForKey:@"category"];
