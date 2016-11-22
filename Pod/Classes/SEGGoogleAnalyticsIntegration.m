@@ -1,9 +1,9 @@
-#import <GAIDictionaryBuilder.h>
-#import <GAIFields.h>
-#import <SEGAnalyticsUtils.h>
-#import <SEGAnalytics.h>
+#import "GAIDictionaryBuilder.h"
+#import "GAIFields.h"
+#import "SEGAnalyticsUtils.h"
+#import "SEGAnalytics.h"
 #import "SEGGoogleAnalyticsIntegration.h"
-#import <GAI.h>
+#import "GAI.h"
 
 
 @interface SEGGoogleAnalyticsIntegration ()
